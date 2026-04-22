@@ -1,9 +1,12 @@
+import Nav from "@/components/nav"
+
+
 
 function App() {
 
   return (
-    <div className="p-5 font-black text-6xl">
-      App
+    <div className="w-full flex flex-col justify-center items-center align-middle">
+      <Nav />
     </div>
   )
 }
