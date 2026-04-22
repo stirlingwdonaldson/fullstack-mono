@@ -2,7 +2,9 @@ import 'reflect-metadata'
 import { config } from 'dotenv'
 import { DataSource } from 'typeorm'
 import { Person } from '../entities/Person'
+
 config()
+
 function getEnv(name: string): string {
   const value = process.env[name]
   if (!value) {
@@ -10,6 +12,7 @@ function getEnv(name: string): string {
   }
   return value
 }
+
 export const AppDataSource = new DataSource({
   type: 'mssql',
   host: getEnv('DB_HOST'),
