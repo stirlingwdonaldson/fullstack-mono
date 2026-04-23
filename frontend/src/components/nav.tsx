@@ -12,7 +12,7 @@ export default function Nav() {
           stirling[s].
         </div>
 
-        <div className="w-20">
+        <div className="w-20 grid">
           <div className="h-[1.5px] flex-1 bg-current" />
           <div className="h-[1.5px] -translate-y-2 flex-1 bg-current" />
 
