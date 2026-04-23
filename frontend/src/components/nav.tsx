@@ -6,9 +6,9 @@ const items = [
 
 export default function Nav() {
   return (
-    <div className="z-10 w-full px-5 py-2 text-white sticky top-0">
-      <nav className="flex flex-row items-baseline justify-between">
-        <div className="text-2xl font-semibold tracking-tighter">
+    <div className="isolate fixed top-0 right-0 left-0 z-10 w-full px-5 py-2 text-white ">
+      <nav className="isolate flex flex-row items-baseline justify-between">
+        <div className="text-2xl font-semibold tracking-tighter mix-blend-difference">
           stirling[s].
         </div>
 
