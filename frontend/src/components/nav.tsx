@@ -13,7 +13,7 @@ export default function Nav() {
         <div className="text-2xl font-semibold tracking-tighter">
           stirling
           <span className="italic pl-0.5">
-          [s].
+            [s].
           </span>
         </div>
 
@@ -25,7 +25,7 @@ export default function Nav() {
         <div className="text-sm flex flex-row gap-5 uppercase font-semibold tracking-tighter">
           {items.map((item, index) => (
             <div key={index}>
-              <HoverSlideText text={item.text} hoverText={`[ ${item.text} ]`}/>
+              <HoverSlideText text={item.text} hoverText={`[ ${item.text} ]`} />
             </div>
           ))}
         </div>
