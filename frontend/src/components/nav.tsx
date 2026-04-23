@@ -1,3 +1,5 @@
+import HoverSlideText from "./hover-slide-text"
+
 const items = [
   { text: "Philosophy", link: "Philosophy" },
   { text: "Data", link: "Data" },
@@ -20,7 +22,7 @@ export default function Nav() {
         <div className="text-sm flex flex-row gap-5 uppercase font-semibold tracking-tighter">
           {items.map((item, index) => (
             <div key={index}>
-              {item.text}
+              <HoverSlideText text={item.text}/>
             </div>
           ))}
         </div>
