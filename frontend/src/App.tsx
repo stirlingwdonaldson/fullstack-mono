@@ -2,6 +2,7 @@ import Nav from "@/components/nav"
 import Rambling from "./components/rambling"
 import Hero from "./components/hero"
 import Carousel from "./components/carousel"
+import BackEndTest from "./components/backend-test"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Rambling />
       <Carousel />
+      <BackEndTest />
     </div>
   )
 }
