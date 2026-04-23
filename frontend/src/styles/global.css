@@ -20,3 +20,15 @@
 @theme {
   --font-serif: "Instrument Serif", serif;
 }
+
+@keyframes marquee-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-50% - 0.5rem));
+  }
+}
+.carousel-track {
+  animation: marquee-left 35s linear infinite;
+}

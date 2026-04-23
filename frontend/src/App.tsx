@@ -1,6 +1,7 @@
 import Nav from "@/components/nav"
 import Rambling from "./components/rambling"
 import Hero from "./components/hero"
+import Carousel from "./components/carousel"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Nav />
       <Hero />
       <Rambling />
+      <Carousel />
     </div>
   )
 }
