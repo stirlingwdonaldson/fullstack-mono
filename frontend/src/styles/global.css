@@ -1,9 +1,22 @@
 @import "tailwindcss";
 
 :root {
-  font-family: "Helvetica", system-ui, sans-serif;
+  font-family: "Helvetica Neue", system-ui, sans-serif;
 }
 
-body {
-  margin: 0;
+@font-face {
+  font-family: "Instrument Serif";
+  src: url("/fonts/InstrumentSerif-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Instrument Serif";
+  src: url("/fonts/InstrumentSerif-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@theme {
+  --font-serif: "Instrument Serif", serif;
 }
