@@ -1,7 +1,7 @@
 
 export default function Rambling() {
   return (
-    <div className="w-full p-5 overflow-hidden isolate">
+    <div className="w-full p-5 overflow-hidden isolate pt-10">
       <section className="text-4xl  tracking-tighter grid grid-cols-1 sm:grid-cols-2">
         <div>
         </div>

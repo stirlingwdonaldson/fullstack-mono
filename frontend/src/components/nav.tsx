@@ -11,7 +11,10 @@ export default function Nav() {
     <div className="fixed top-0 right-0 left-0 z-10 w-full px-5 py-2 text-white mix-blend-difference">
       <nav className="flex flex-row items-baseline justify-between">
         <div className="text-2xl font-semibold tracking-tighter">
-          stirling[s].
+          stirling
+          <span className="italic pl-0.5">
+          [s].
+          </span>
         </div>
 
         <div className="w-20 grid">
